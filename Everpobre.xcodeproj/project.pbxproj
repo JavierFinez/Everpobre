@@ -60,6 +60,7 @@
 		749E184821C6ACE800BD8C90 = {
 			isa = PBXGroup;
 			children = (
+				749E187721C6F71E00BD8C90 /* README.md */,
 				749E185321C6ACE800BD8C90 /* Everpobre */,
 				749E186821C6ACEB00BD8C90 /* EverpobreTests */,
 				749E185221C6ACE800BD8C90 /* Products */,
@@ -84,7 +85,6 @@
 				749E185B21C6ACEB00BD8C90 /* Assets.xcassets */,
 				749E185D21C6ACEB00BD8C90 /* LaunchScreen.storyboard */,
 				749E186021C6ACEB00BD8C90 /* Info.plist */,
-				749E187721C6F71E00BD8C90 /* README.md */,
 			);
 			path = Everpobre;
 			sourceTree = "<group>";
