@@ -8,11 +8,18 @@
 
 /* Begin PBXBuildFile section */
 		7402389621CE41B800983C9C /* NotebookListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7402389521CE41B800983C9C /* NotebookListCell.swift */; };
-		7402389921CE446B00983C9C /* Notebook.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7402389821CE446B00983C9C /* Notebook.swift */; };
-		7402389B21CE51DF00983C9C /* Note.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7402389A21CE51DF00983C9C /* Note.swift */; };
+		7402389921CE446B00983C9C /* deprecated_Notebook.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7402389821CE446B00983C9C /* deprecated_Notebook.swift */; };
+		7402389B21CE51DF00983C9C /* deprecated_Note.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7402389A21CE51DF00983C9C /* deprecated_Note.swift */; };
 		7402389E21CE52FE00983C9C /* NotesListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7402389D21CE52FE00983C9C /* NotesListViewController.swift */; };
 		740238A421CEF0D600983C9C /* NoteDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 740238A221CEF0D600983C9C /* NoteDetailsViewController.swift */; };
 		740238A521CEF0D600983C9C /* NoteDetailsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 740238A321CEF0D600983C9C /* NoteDetailsViewController.xib */; };
+		740238A821D1231B00983C9C /* Date+Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 740238A721D1231B00983C9C /* Date+Utils.swift */; };
+		7460D58D21D92DF7002007D8 /* CoreDataStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7460D58C21D92DF7002007D8 /* CoreDataStack.swift */; };
+		7460D59021D93254002007D8 /* Everpobre.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 7460D58E21D93254002007D8 /* Everpobre.xcdatamodeld */; };
+		7460D59D21D93A61002007D8 /* Notebook+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7460D59921D93A61002007D8 /* Notebook+CoreDataClass.swift */; };
+		7460D59E21D93A61002007D8 /* Notebook+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7460D59A21D93A61002007D8 /* Notebook+CoreDataProperties.swift */; };
+		7460D59F21D93A61002007D8 /* Note+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7460D59B21D93A61002007D8 /* Note+CoreDataClass.swift */; };
+		7460D5A021D93A61002007D8 /* Note+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7460D59C21D93A61002007D8 /* Note+CoreDataProperties.swift */; };
 		749E185521C6ACE800BD8C90 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 749E185421C6ACE800BD8C90 /* AppDelegate.swift */; };
 		749E185A21C6ACE800BD8C90 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 749E185821C6ACE800BD8C90 /* Main.storyboard */; };
 		749E185C21C6ACEB00BD8C90 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 749E185B21C6ACEB00BD8C90 /* Assets.xcassets */; };
@@ -33,11 +40,18 @@
 
 /* Begin PBXFileReference section */
 		7402389521CE41B800983C9C /* NotebookListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotebookListCell.swift; sourceTree = "<group>"; };
-		7402389821CE446B00983C9C /* Notebook.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Notebook.swift; sourceTree = "<group>"; };
-		7402389A21CE51DF00983C9C /* Note.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Note.swift; sourceTree = "<group>"; };
+		7402389821CE446B00983C9C /* deprecated_Notebook.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = deprecated_Notebook.swift; sourceTree = "<group>"; };
+		7402389A21CE51DF00983C9C /* deprecated_Note.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = deprecated_Note.swift; sourceTree = "<group>"; };
 		7402389D21CE52FE00983C9C /* NotesListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotesListViewController.swift; sourceTree = "<group>"; };
 		740238A221CEF0D600983C9C /* NoteDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteDetailsViewController.swift; sourceTree = "<group>"; };
 		740238A321CEF0D600983C9C /* NoteDetailsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NoteDetailsViewController.xib; sourceTree = "<group>"; };
+		740238A721D1231B00983C9C /* Date+Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+Utils.swift"; sourceTree = "<group>"; };
+		7460D58C21D92DF7002007D8 /* CoreDataStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataStack.swift; sourceTree = "<group>"; };
+		7460D58F21D93254002007D8 /* Everpobre.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Everpobre.xcdatamodel; sourceTree = "<group>"; };
+		7460D59921D93A61002007D8 /* Notebook+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "Notebook+CoreDataClass.swift"; path = "Everpobre/Model/Notebook+CoreDataClass.swift"; sourceTree = "<group>"; };
+		7460D59A21D93A61002007D8 /* Notebook+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "Notebook+CoreDataProperties.swift"; path = "Everpobre/Model/Notebook+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		7460D59B21D93A61002007D8 /* Note+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "Note+CoreDataClass.swift"; path = "Everpobre/Model/Note+CoreDataClass.swift"; sourceTree = "<group>"; };
+		7460D59C21D93A61002007D8 /* Note+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "Note+CoreDataProperties.swift"; path = "Everpobre/Model/Note+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		749E185121C6ACE800BD8C90 /* Everpobre.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Everpobre.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		749E185421C6ACE800BD8C90 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		749E185921C6ACE800BD8C90 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -72,8 +86,8 @@
 		7402389721CE443B00983C9C /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				7402389821CE446B00983C9C /* Notebook.swift */,
-				7402389A21CE51DF00983C9C /* Note.swift */,
+				7402389821CE446B00983C9C /* deprecated_Notebook.swift */,
+				7402389A21CE51DF00983C9C /* deprecated_Note.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -95,9 +109,22 @@
 			path = NoteDetails;
 			sourceTree = "<group>";
 		};
+		740238A621D122F800983C9C /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				740238A721D1231B00983C9C /* Date+Utils.swift */,
+				7460D58C21D92DF7002007D8 /* CoreDataStack.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
 		749E184821C6ACE800BD8C90 = {
 			isa = PBXGroup;
 			children = (
+				7460D59921D93A61002007D8 /* Notebook+CoreDataClass.swift */,
+				7460D59A21D93A61002007D8 /* Notebook+CoreDataProperties.swift */,
+				7460D59B21D93A61002007D8 /* Note+CoreDataClass.swift */,
+				7460D59C21D93A61002007D8 /* Note+CoreDataProperties.swift */,
 				749E187721C6F71E00BD8C90 /* README.md */,
 				749E185321C6ACE800BD8C90 /* Everpobre */,
 				749E186821C6ACEB00BD8C90 /* EverpobreTests */,
@@ -117,6 +144,7 @@
 		749E185321C6ACE800BD8C90 /* Everpobre */ = {
 			isa = PBXGroup;
 			children = (
+				740238A621D122F800983C9C /* Utils */,
 				7402389F21CEF02F00983C9C /* NoteDetails */,
 				7402389C21CE52D200983C9C /* NotesList */,
 				7402389721CE443B00983C9C /* Model */,
@@ -126,6 +154,7 @@
 				749E185B21C6ACEB00BD8C90 /* Assets.xcassets */,
 				749E185D21C6ACEB00BD8C90 /* LaunchScreen.storyboard */,
 				749E186021C6ACEB00BD8C90 /* Info.plist */,
+				7460D58E21D93254002007D8 /* Everpobre.xcdatamodeld */,
 			);
 			path = Everpobre;
 			sourceTree = "<group>";
@@ -250,11 +279,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7402389B21CE51DF00983C9C /* Note.swift in Sources */,
+				7402389B21CE51DF00983C9C /* deprecated_Note.swift in Sources */,
+				7460D5A021D93A61002007D8 /* Note+CoreDataProperties.swift in Sources */,
+				7460D59D21D93A61002007D8 /* Notebook+CoreDataClass.swift in Sources */,
 				749E187621C6B29300BD8C90 /* NotebookListViewController.swift in Sources */,
+				7460D59021D93254002007D8 /* Everpobre.xcdatamodeld in Sources */,
 				749E185521C6ACE800BD8C90 /* AppDelegate.swift in Sources */,
-				7402389921CE446B00983C9C /* Notebook.swift in Sources */,
+				7460D58D21D92DF7002007D8 /* CoreDataStack.swift in Sources */,
+				7402389921CE446B00983C9C /* deprecated_Notebook.swift in Sources */,
+				7460D59F21D93A61002007D8 /* Note+CoreDataClass.swift in Sources */,
 				7402389E21CE52FE00983C9C /* NotesListViewController.swift in Sources */,
+				7460D59E21D93A61002007D8 /* Notebook+CoreDataProperties.swift in Sources */,
+				740238A821D1231B00983C9C /* Date+Utils.swift in Sources */,
 				740238A421CEF0D600983C9C /* NoteDetailsViewController.swift in Sources */,
 				7402389621CE41B800983C9C /* NotebookListCell.swift in Sources */,
 			);
@@ -519,6 +555,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		7460D58E21D93254002007D8 /* Everpobre.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				7460D58F21D93254002007D8 /* Everpobre.xcdatamodel */,
+			);
+			currentVersion = 7460D58F21D93254002007D8 /* Everpobre.xcdatamodel */;
+			path = Everpobre.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 749E184921C6ACE800BD8C90 /* Project object */;
 }

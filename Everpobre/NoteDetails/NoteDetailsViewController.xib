@@ -12,6 +12,12 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="NoteDetailsViewController" customModule="Everpobre" customModuleProvider="target">
             <connections>
+                <outlet property="creationDateLabel" destination="A8t-c5-ZYb" id="QNj-FV-yNw"/>
+                <outlet property="descriptionTextView" destination="lqe-Q0-YOn" id="Jz7-5c-pwU"/>
+                <outlet property="imageView" destination="ud9-Mc-pQD" id="hA5-Kd-mOR"/>
+                <outlet property="lastSeenDateLabel" destination="rXA-Ls-UOo" id="TU0-b1-we0"/>
+                <outlet property="tagsLabel" destination="fsi-Tl-jRS" id="UUP-bS-phj"/>
+                <outlet property="titleLabel" destination="kMT-1w-Puk" id="mhL-62-a6v"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
             </connections>
         </placeholder>

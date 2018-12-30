@@ -16,21 +16,12 @@ class NotebookListCell: UITableViewCell {
     override func prepareForReuse() {
         titleLabel.text = nil
         creationDateLabel.text = nil
+        super.prepareForReuse()
     }
     
-    func configure(with notebook: Notebook) {
+    func configure(with notebook: deprecated_Notebook) {
         titleLabel.text = notebook.name
-        creationDateLabel.text = creationString(from: notebook.creationDate)
+        creationDateLabel.text = "Created: \(notebook.creationDate.customStringLabel())"
     }
-    
-    func creationString(from date: Date) -> String {
-        let dateFormatter = DateFormatter()
-        dateFormatter.dateStyle = .medium
-        dateFormatter.timeStyle = .none
-        dateFormatter.locale = Locale(identifier: "en_US")
-        
-        return "Created: \(dateFormatter.string(from: date))"
-    }
-    
     
 }
